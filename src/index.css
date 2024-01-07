@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@1,100&family=Unbounded&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Pacifico&family=Raleway:ital,wght@1,100&family=Unbounded&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 65.5%;
+  scroll-behavior: smooth;
+}
+@media (max-width: 762px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+@media (max-width: 462px) {
+  html {
+    font-size: 55.5%;
+  }
+}
