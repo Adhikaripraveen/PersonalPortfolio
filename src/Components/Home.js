@@ -66,7 +66,7 @@ export const Home = () => {
                 FrontEnd Developer
               </Typography>
               <Link
-                href="https://drive.google.com/file/d/10jv9CwO-GFi9DImJBjP-uWE4XON8M3-m/view"
+                href="https://drive.google.com/file/d/17E2uzT7awkzTkjkdt7wVwHZNEToThbU0/view"
                 target="blank"
               >
                 <Button
