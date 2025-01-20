@@ -63,7 +63,7 @@ export const Home = () => {
                   marginBottom: "1rem",
                 }}
               >
-                FrontEnd Developer
+                Fullstack Developer
               </Typography>
               <Link
                 href="https://drive.google.com/file/d/17E2uzT7awkzTkjkdt7wVwHZNEToThbU0/view"
@@ -114,13 +114,7 @@ export const Home = () => {
                     fontWeight: "600",
                   }}
                 >
-                  Proficient in HTML, CSS, React, and JavaScript, I possess the
-                  tools to transform design concepts into interactive and
-                  visually stunning websites. My expertise in HTML and CSS
-                  enables me to structure and style web content with precision
-                  and creativity. Leveraging the power of JavaScript and React,
-                  I bring interactivity and dynamism to the user interface,
-                  resulting in seamless and responsive web applications.
+                  Full Stack Developer with hands-on experience in building dynamic web applications using the MERN stack. Adept at both front-end and back-end development, with a passion for creating efficient, scalable, and user-centric web applications. Eager to contribute technical expertise to a forward-thinking team.
                 </Typography>
               </Box>
             </Grid>

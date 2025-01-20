@@ -2,7 +2,11 @@ import { Container, Grid, Stack, Typography, Box } from "@mui/material";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import express from "../Images/express.png"
+import mongodb from "../Images/mongodb.png"
 import { useMediaQuery } from "@mui/material";
+import redux from "../Images/redux.png";
+
 
 const Skills = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
@@ -167,7 +171,7 @@ const Skills = () => {
                       data-aos-delay="100"
                       width="30%"
                       height="auto"
-                      src="https://www.britefish.net/wp-content/uploads/2019/06/logo-javascript-2.png"
+                      src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                       alt="javascript"
                       style={{ borderRadius: "1rem" }}
                     />
@@ -240,7 +244,7 @@ const Skills = () => {
                       data-aos-delay="100"
                       width="30%"
                       height="auto"
-                      src="https://i0.wp.com/programmingwithmosh.com/wp-content/uploads/2020/02/reduxlogo.png?ssl=1"
+                      src={redux}
                       alt="react"
                       style={{
                         borderRadius: "1rem",
@@ -298,6 +302,114 @@ const Skills = () => {
                       }}
                     >
                       GITHUB
+                    </Typography>
+                  </Stack>
+                </Box>
+              </Grid>
+              <Grid item md={4} xs={4} sx={{ paddingLeft: "0 !important" }}>
+                <Box>
+                  <Stack
+                    direction="column"
+                    spacing={2}
+                    alignItems="center"
+                    textAlign="center"
+                  >
+                    <img
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      width="50%"
+                      height="auto"
+                      src="https://upload.wikimedia.org/wikipedia/commons/6/67/NodeJS.png"
+                      alt="Nodejs"
+                      style={{ borderRadius: "1rem" }}
+                    />
+                    <Typography
+                      component="div"
+                      variant="h4"
+                      sx={{
+                        fontFamily: "Unbounded, sans-serif",
+                        fontWeight: "900",
+                        lineHeight: "5rem",
+                        color: "#C147E9",
+                        textShadow: {
+                          md: " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                          xs: "",
+                        },
+                      }}
+                    >
+                      NODEJS
+                    </Typography>
+                  </Stack>
+                </Box>
+              </Grid>
+              <Grid item md={4} xs={4} sx={{ paddingLeft: "0 !important" }}>
+                <Box>
+                  <Stack
+                    direction="column"
+                    spacing={2}
+                    alignItems="center"
+                    textAlign="center"
+                  >
+                    <img
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      width="30%"
+                      height="auto"
+                      src={express}
+                      alt="github"
+                      style={{ borderRadius: "1rem" }}
+                    />
+                    <Typography
+                      component="div"
+                      variant="h4"
+                      sx={{
+                        fontFamily: "Unbounded, sans-serif",
+                        fontWeight: "900",
+                        lineHeight: "5rem",
+                        color: "#C147E9",
+                        textShadow: {
+                          md: " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                          xs: "",
+                        },
+                      }}
+                    >
+                      EXPRESS
+                    </Typography>
+                  </Stack>
+                </Box>
+              </Grid>
+              <Grid item md={4} xs={4} sx={{ paddingLeft: "0 !important" }}>
+                <Box>
+                  <Stack
+                    direction="column"
+                    spacing={2}
+                    alignItems="center"
+                    textAlign="center"
+                  >
+                    <img
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      width="30%"
+                      height="auto"
+                      src={mongodb}
+                      alt="github"
+                      style={{ borderRadius: "1rem" }}
+                    />
+                    <Typography
+                      component="div"
+                      variant="h4"
+                      sx={{
+                        fontFamily: "Unbounded, sans-serif",
+                        fontWeight: "900",
+                        lineHeight: "5rem",
+                        color: "#C147E9",
+                        textShadow: {
+                          md: " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                          xs: "",
+                        },
+                      }}
+                    >
+                      MONGODB
                     </Typography>
                   </Stack>
                 </Box>

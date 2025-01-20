@@ -1,4 +1,5 @@
 import { Container, Box, Typography, Stack, Divider } from "@mui/material";
+import ignou from '../Images/IGNOU_S.jpg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -45,7 +46,7 @@ const Education = () => {
             <Stack direction="row" spacing={4}>
               <Box width={{ sm: "10%", xs: "30%" }} height="auto">
                 <img
-                  src="https://storage.googleapis.com/ezap-prod/forms/361/ignou.jpg"
+                  src={ignou}
                   width="100%"
                   height="100%"
                   alt="Collage "
@@ -73,7 +74,7 @@ const Education = () => {
             <Stack direction="row" spacing={4}>
               <Box width={{ sm: "10%", xs: "30%" }} height="auto">
                 <img
-                  src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201207/cbse-logo_650_011714052203.jpg?VersionId=HqXQ.oeEfquFyDZv5N88IuksHaq4.eZu&size=690:388"
+                  src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201207/cbse-logo_650_011714052203.jpg?VersionId=HqXQ.oeEfquFyDZv5N88IuksHaq4.eZu&size=690:388" 
                   width="100%"
                   height="100%"
                   alt="Collage "

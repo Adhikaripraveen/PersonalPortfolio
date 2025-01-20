@@ -5,7 +5,6 @@ import {
   Stack,
   Typography,
   Box,
-  Divider,
   Paper,
 } from "@mui/material";
 import StarIcon from "@mui/icons-material/Star";
@@ -15,6 +14,7 @@ import { useEffect } from "react";
 import Movix from "../Images/Movix.png";
 import Task from "../Images/Task.png";
 import PropertySite from "../Images/PropertySite.png";
+
 
 export const Project = () => {
   useEffect(() => {
@@ -156,7 +156,7 @@ export const Project = () => {
                               fontFamily: "Libre Baskerville,serif",
                             }}
                           >
-                            React,HTML,CSS,Api Integration,Responsive
+                            React,HTML,CSS,Api Integration,Express,MognoDB
                           </Typography>
                         </Box>
                         <Box>
@@ -193,7 +193,32 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a"
+                            }}
+                          >
+                            Authentication/Authorization:-
+                          </Typography>
+                          <Typography
+                            component="span"
+                            sx={{
+                              color: "black",
+                              fontSize: "1.8rem",
+                              marginLeft: "0.5rem",
+                              fontFamily: "Libre Baskerville,serif",
+                            }}
+                          >
+                           Secure authentication mechanisms are implemented to ensure users' data and preferences are protected.
+                          </Typography>
+                        </Box>
+                        <Box>
+                          <Typography
+                            component="span"
+                            variant="h4"
+                            sx={{
+                              color: "#FF6AC2",
+                              fontWeight: "600",
+                              textShadow:
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             API Integration :-
@@ -218,8 +243,8 @@ export const Project = () => {
                             sx={{
                               color: "#FF6AC2",
                               fontWeight: "600",
-                              textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                                textShadow:
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Watchlist Feature:-
@@ -233,10 +258,10 @@ export const Project = () => {
                               fontFamily: "Libre Baskerville,serif",
                             }}
                           >
-                            One of the standoutfeatures of MOVIX is its
-                            watchlistfunctionality .Users can add movies and TV
+                            One of the standout features of MOVIX is its
+                            watchlist functionality .Users can add movies and TV
                             shows to their personal watchlists, making it
-                            convenientto keep track of contentthey plan to watch
+                            convenient to keep track of content they plan to watch
                             later
                           </Typography>
                         </Box>
@@ -247,8 +272,8 @@ export const Project = () => {
                             sx={{
                               color: "#FF6AC2",
                               fontWeight: "600",
-                              textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                                textShadow:
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Search Functionality:-
@@ -262,15 +287,15 @@ export const Project = () => {
                               fontFamily: "Libre Baskerville,serif",
                             }}
                           >
-                            :Users can easily search fortheirfavorite content
+                            :Users can easily search for their favorite content
                             using the search feature, which allows them to
-                            discover new titles orlocate specific movies and TV
+                            discover new titles or locate specific movies and TV
                             shows quickly.
                           </Typography>
                         </Box>
                         <Box>
                           <Link
-                            href="https://Adhikaripraveen.github.io/MOVIX"
+                            href="https://movix-fullstack.onrender.com"
                             target="blank"
                           >
                             <Button
@@ -330,8 +355,8 @@ export const Project = () => {
                     variant="h3"
                     gutterBottom
                     sx={{
-                      textShadow:
-                        " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                       textShadow:
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                       fontFamily: "Libre Baskerville,serif",
                       color: "#F11A7B",
                     }}
@@ -399,7 +424,7 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Tech Stack :-
@@ -423,8 +448,8 @@ export const Project = () => {
                             sx={{
                               color: "#FF6AC2",
                               fontWeight: "600",
-                              textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                             textShadow:
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Features :-
@@ -449,8 +474,8 @@ export const Project = () => {
                             sx={{
                               color: "#FF6AC2",
                               fontWeight: "600",
-                              textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                               textShadow:
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             LocalStorage Integration :-
@@ -464,9 +489,9 @@ export const Project = () => {
                               fontFamily: "Libre Baskerville,serif",
                             }}
                           >
-                            Alltasks are stored locally using the browser's
-                            “localStorage“.Ensures persistent data even afterthe
-                            browseris closed, providing a seamless user
+                            All tasks are stored locally using the browser's
+                            “localStorage“.Ensures persistent data even after the
+                            browser is closed, providing a seamless user
                             experience.
                           </Typography>
                         </Box>
@@ -478,7 +503,7 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             State Management :-
@@ -492,7 +517,7 @@ export const Project = () => {
                               fontFamily: "Libre Baskerville,serif",
                             }}
                           >
-                            Utilizes React state managementto keep track of
+                            Utilizes React state management to keep track of
                             dynamic changes within the application
                           </Typography>
                         </Box>
@@ -504,7 +529,7 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Learning Outcomes:-
@@ -587,7 +612,7 @@ export const Project = () => {
                     gutterBottom
                     sx={{
                       textShadow:
-                        " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                      "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                       fontFamily: "Libre Baskerville,serif",
                       color: "#F11A7B",
                     }}
@@ -658,8 +683,8 @@ export const Project = () => {
                             sx={{
                               color: "#FF6AC2",
                               fontWeight: "600",
-                              textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                               textShadow:
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Tech Stack :-
@@ -684,7 +709,7 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Property Listings :-
@@ -711,7 +736,7 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Carousel :-
@@ -739,7 +764,7 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             FAQ Section :-
@@ -767,7 +792,7 @@ export const Project = () => {
                               color: "#FF6AC2",
                               fontWeight: "600",
                               textShadow:
-                                " -1px -1px 0 #2a2a2a, 1px -1px 0 #2a2a2a, -1px 1px 0 #2a2a2a, 1px 1px 0 #2a2a2a, 4px 4px #2a2a2a",
+                              "-1px -1px 0 #000000, 1px -1px 0 #232222, -1px 1px 0 #292828, 1px 1px 0 #000000, 3px 2px 0px #2a2a2a",
                             }}
                           >
                             Responsive Design :-
