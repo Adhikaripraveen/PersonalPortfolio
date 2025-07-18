@@ -66,7 +66,7 @@ export const Home = () => {
                 Fullstack Developer
               </Typography>
               <Link
-                href="https://drive.google.com/file/d/15RhCKC0ErRAbpEyQyeZvbqk6fQj_rBAt/view"
+                href="https://drive.google.com/file/d/1RZpknzF8HgRc5QByFyAh9g8SEfKrnslt/view"
                 target="blank"
               >
                 <Button
